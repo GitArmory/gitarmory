@@ -2,26 +2,23 @@ about:
   title: About GitArmory
   image: images/profile_picture.jpg
   paragraph:
-    Welcome to GitArmory's official website! GitArmory is a pioneering security company dedicated to revolutionizing the way git repositories are managed and secured. 
-    Originating from a remote hackathon team with a vision to change the world for the better, we engage in creating a variety of projects to address diverse needs. 
-    Specializing in operational tasks, we collaborate with development teams to create efficient software products utilizing CI/CD platforms. 
-    Our expertise spans across DevOps Engineering, Software Engineering, Full Stack Design/Development, Automation Engineering, and Data Analytics. 
-    We possess experience with various operating systems such as Mac, Windows, and Linux. With a growth mindset, we are always on the lookout for new technologies. 
-    Thriving in diverse environments, we enjoy taking on new challenges. Our work leverages a range of technologies, including Docker, Jenkins, Kubernetes, Ansible, Helm, CI/CD Pipelines, SonarQube, Nagios, Configuration Management, Server Operations, and Web Development/Deployment. 
-    Additionally, we keep our skills up-to-date by programming in several languages, including Python, C++, C#, JavaScript, and Groovy. 
-    Our passion lies in creating and enhancing full-stack architectures while prioritizing project security and scalability through automation and machine learning. 
+    Welcome to GitArmory's official website! GitArmory is a pioneering security company dedicated to revolutionizing the way git repositories are managed and secured.
+    Originating from a remote hackathon team with a vision to change the world for the better, we engage in creating a variety of projects to address diverse needs.
+    Specializing in operational tasks, we collaborate with development teams to create efficient software products utilizing CI/CD platforms.
+    Our expertise spans across DevOps Engineering, Software Engineering, Full Stack Design/Development, Automation Engineering, and Data Analytics.
+    We possess experience with various operating systems such as Mac, Windows, and Linux. With a growth mindset, we are always on the lookout for new technologies.
+    Thriving in diverse environments, we enjoy taking on new challenges. Our work leverages a range of technologies, including Docker, Jenkins, Kubernetes, Ansible, Helm, CI/CD Pipelines, SonarQube, Nagios, Configuration Management, Server Operations, and Web Development/Deployment.
+    Additionally, we keep our skills up-to-date by programming in several languages, including Python, C++, C#, JavaScript, and Groovy.
+    Our passion lies in creating and enhancing full-stack architectures while prioritizing project security and scalability through automation and machine learning.
     If you're interested in our work or have a position available, please feel free to contact us. Thank you for visiting our website!
 
 work:
   title: Why Choose GitArmory?
   image: images/collaboration.png
-  paragraph:
-    If you're looking for a security partner that can elevate your team's capabilities in managing and securing git repositories, your search ends with GitArmory! We bring the skills and experience necessary to guide your team, offering a clear roadmap for integrating cutting-edge security scanning and AI technology into your git repositories.
+  paragraph: If you're looking for a security partner that can elevate your team's capabilities in managing and securing git repositories, your search ends with GitArmory! We bring the skills and experience necessary to guide your team, offering a clear roadmap for integrating cutting-edge security scanning and AI technology into your git repositories.
   heading: How GitArmory Can Streamline and Advance Your Projects
-  item1:
-    At GitArmory, we are equipped to propel your projects forward by identifying and implementing AI-driven solutions to automate security assessments, vulnerability scanning, and patching. In this role, we actively work to minimize security vulnerabilities, support development teams in building secure software, and enhance productivity across all your software development endeavors.
-  item2:
-    Our unwavering commitment to integrating successful security practices and innovative technologies will improve your team's development lifecycle and generate effective long-term solutions for your organization. With our extensive skills and expertise, we can help your team achieve new heights of security and efficiency.
+  item1: At GitArmory, we are equipped to propel your projects forward by identifying and implementing AI-driven solutions to automate security assessments, vulnerability scanning, and patching. In this role, we actively work to minimize security vulnerabilities, support development teams in building secure software, and enhance productivity across all your software development endeavors.
+  item2: Our unwavering commitment to integrating successful security practices and innovative technologies will improve your team's development lifecycle and generate effective long-term solutions for your organization. With our extensive skills and expertise, we can help your team achieve new heights of security and efficiency.
 
 testimonials:
   - content: "GitArmory has been instrumental in securing our git repositories, providing us with the tools and expertise needed to detect and mitigate potential security threats effectively. Their use of AI technologies has brought our security measures to the next level."
