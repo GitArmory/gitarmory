@@ -1,0 +1,251 @@
+{{ define "main" }}
+{{ $data := index .Site.Data }}
+
+<!-- Banner -->
+<div id="heading">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-10 col-lg-8 text-center">
+                <h1 class="introduction">{{ .Params.bannerHeading }}</h1>
+                <h2 class="introduction">{{ .Params.bannerDescription }}</h2>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Banner End -->
+
+<!-- service section-->
+{{ with $data.service.service }}
+<section class="wrapper">
+    <div class="inner">
+        <!-- Calendly inline widget begin -->
+        <header class="special">
+            <h2>{{ .title | markdownify }}</h2>
+            <img src="../images/line_break.png" alt="">
+        </header>
+        <div class="highlights">
+            {{ range .offer_item }}
+            <section>
+                <div class="content">
+                    <header>
+                        <a href="#" class="{{ .icon }}"><span class="label">Development Icon</span></a>
+                        <h3>{{ .title | markdownify }}</h3>
+                    </header>
+                    <p>{{ .description | markdownify }}</p>
+                </div>
+            </section>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}
+<!-- service end-->
+
+
+<!-- 2nd service -->
+{{ with $data.service.service2 }}
+<section class="wrapper">
+    <div class="inner">
+
+        <section class="about-2 section bg-gray" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-5">
+                        <h2>{{ .title | markdownify }}</h2>
+                    </div>
+                    <div class="col-12 col-md-7">
+                        <p>{{ .description | markdownify }}</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="services section-xs" id="services">
+            <div class="container">
+                <div class="row">
+                    {{ range .service_item }}
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="service-block color-bg text-center">
+                            <div class="service-icon text-center">
+                                <i class="{{ .icon }}"></i>
+                            </div>
+                            <h3>{{ .title | markdownify }}</h3>
+                            <p>{{ .details | markdownify }}</p>
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </section>
+        <section class="service-list section bg-gray">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="title text-center">
+                            <h4>{{ .title2 | markdownify }}</h4>
+                            <h2>{{ .subtitle2 | markdownify }}</h2>
+                            <span class="border"></span>
+                            <p>{{ .details | markdownify }}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    {{ range .service2_item }}
+                    <div class="col-md-4">
+                        <div class="block h-100">
+                            <i class="{{ .icon }}"></i>
+                            <h3>{{ .title | markdownify }}</h3>
+                            <ul>
+                                {{ range .list }}
+                                <li>{{ .item }}</li>
+                                {{ end }}
+                            </ul>
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </section>
+
+        <section class="service-2 section bg-gray">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="title text-center">
+                            <h4>{{ .title3 | markdownify }}</h4>
+                            <h2>{{ .subtitle3 | markdownify }}</h2>
+                            <span class="border"></span>
+                            <p>{{ .details2 | markdownify }}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    {{ range .service3_item }}
+                    <div class="col-md-4 col-sm-6 p-0">
+                        <div class="service-item text-center h-100">
+                            <span class="count">{{ .count }}</span>
+                            <i class="{{ .icon }}"></i>
+                            <h4>{{ .title | markdownify }}</h4>
+                            <p>{{ .details | markdownify }}</p>
+                        </div>
+                    </div>
+                    {{ end }}
+                    <div class="w-100"></div>
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+</section>
+{{ end }}
+
+<!-- 3rd service -->
+{{ with $data.service.service3 }}
+<section class="service-3 section bg-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="title text-center">
+                    <h4>{{ .title | markdownify }}</h4>
+                    <h2>{{ .subtitle | markdownify }}</h2>
+                    <span class="border"></span>
+                    <p>{{ .description | markdownify }}</p>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            {{ range .service_item }}
+            <div class="col-md-4 col-sm-6 p-0">
+                <div class="service-item text-center h-100">
+                    <span class="count">{{ .count }}</span>
+                    <i class="{{ .icon }}"></i>
+                    <h4>{{ .title | markdownify }}</h4>
+                    <p>{{ .details | markdownify }}</p>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}
+
+<!-- Banner -->
+<!-- <section class="service-3 section bg-gray">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-10 col-lg-8 text-center">
+                <h1 class="introduction">First, Please feel free to downnload my resume.</h1>
+                <div class="download_button my-4">
+                    <a target="_blank" href="/documents/ryan_lebon_resume.pdf" class="button icon fa-download" download> Download Resume</a>
+                 </div>
+            </div>
+        </div>
+    </div>
+</section> -->
+<!-- Banner End -->
+
+
+<!-- Calendly inline widget begin -->
+<!-- Banner -->
+<section class="service-3 section bg-gray">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-10 col-lg-8 text-center">
+                <h1 class="introduction">Please schedule a free initial 30 minute call if you are interested in my services and I can get back with an estimate.</h1>
+                <div class="calendly-inline-widget" data-url="https://calendly.com/ryan-lebon24/initial-phone-call" style="min-width:320px;height:700px;"></div>
+                <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Calendly inline widget end -->
+
+<!-- Banner -->
+<!-- <section class="service-3 section bg-gray">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-10 col-lg-8 text-center">
+                <h1 class="introduction">Please feel free to invest in my consulting services.</h1>
+                <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
+                <stripe-pricing-table pricing-table-id="prctbl_1OHf4RGsN7jBudkSGtLCg3tP"
+                publishable-key="pk_live_51MaUYCGsN7jBudkSJDs3G9XmrCWO2ClXCOnCRhnhpL9snUl7wzQebFp8dPiKgWkUooRHhiRkNrjpsCfTW3YW4B7900Bvnhz99z">
+                </stripe-pricing-table>
+            </div>
+        </div>
+    </div>
+</section> -->
+<!-- Banner End -->
+
+
+
+
+
+    
+<!-- Scripts -->
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/custom.js"></script>
+<script src="../js/browser.min.js"></script>
+<script src="../js/breakpoints.min.js"></script>
+<script src="../js/util.js"></script>
+<script src="../js/main.js"></script>
+
+<script>
+    /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+    var dropdown = document.getElementsByClassName("dropdown-btn");
+    var i;
+
+    for (i = 0; i < dropdown.length; i++) {
+        dropdown[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var dropdownContent = this.nextElementSibling;
+            if (dropdownContent.style.display === "block") {
+                dropdownContent.style.display = "none";
+            } else {
+                dropdownContent.style.display = "block";
+            }
+        });
+    }
+</script>
+{{ end }}

@@ -1,0 +1,41 @@
+baseURL: 'https://ryanlebon.com'
+languageCode: 'en-us'
+title: 'Ryan Lebon'
+
+params:
+    logo: images/logo.png
+    plugins:
+        css:
+        - link: css/bootstrap.min.css
+        - link: css/main.css
+        - link: css/font-awesome.min.css
+        - link: css/animate.css
+        - link: themefisher-font/style.css
+        js:
+        - link: js/bootstrap.min.js
+        - link: js/breakpoints.min.js
+        - link: js/browser.min.js
+        - link: js/custom.js
+        - link: js/jquery.min.js
+        - link: js/main.js
+        - link: js/util.js
+
+#     favicon: /images/logo.png
+#     favicon16x16: /images/logo.png
+#     favicon32x32: /images/logo.png
+#     apple_touch_icon: /images/logo.png
+#     safari_pinned_tab: /images/logo.png
+menus:
+  main: # Main Menu
+  - name: Home
+    url: "/"
+    weight: "1"
+  - name: About
+    url: "/about/"
+    weight: "10"
+  - name: Service
+    url: "/service/"
+    weight: "11"
+  - name: Blog
+    url: "/blog/"
+    weight: "12"

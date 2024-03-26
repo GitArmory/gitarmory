@@ -1,0 +1,172 @@
+{{ define "main" }}
+{{ $data := index .Site.Data }}
+
+<style>
+    #heading {
+        -ms-flex-align: center;
+        -ms-flex-pack: center;
+        background-color: #111111;
+        color: rgba(255, 255, 255, 0.5);
+        -moz-align-items: center;
+        -webkit-align-items: center;
+        -ms-align-items: center;
+        align-items: center;
+        display: -moz-flex;
+        display: -webkit-flex;
+        display: -ms-flex;
+        display: flex;
+        -moz-justify-content: center;
+        -webkit-justify-content: center;
+        -ms-justify-content: center;
+        justify-content: center;
+        background-image: linear-gradient(rgba(17, 17, 17, 0.25),
+                rgba(17, 17, 17, 0.25)),
+            url("images/banner.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-top: 0;
+        display: -ms-flexbox;
+        height: 60vh;
+        min-height: 15rem;
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+        width: 100%;
+    }
+</style>
+
+<!-- Banner -->
+<div id="heading">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-10 col-lg-8 text-center">
+                <h1 class="introduction">{{ .Params.bannerHeading }}</h1>
+                <h2 class="introduction">{{ .Params.bannerDescription }}</h2>
+                <!-- <img class="img-fluid mb-4" src="{{.Params.bannerImage | relURL}}" alt="Iontra logo"> -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Banner End -->
+
+<!-- Technologies start -->
+{{ with $data.homepage.technologies }}
+<section class="Technologies pb-5">
+    <div class="inner">
+        <header class="special mt-5 pt-4">
+            <div class="flex border-2 border-white flex-col md:flex-row items-center">
+                <div class="flex flex-col space-y-6">
+                    <h2 class="text-3xl md:text-4xl lg:text-5xl text-center md:ml-[-20rem]">{{ .title | markdownify }}
+                    </h2>
+                    <h3 class="text-center md:text-left text-lg font-medium text-black">
+                        {{ .subtitle1st | markdownify }}<br>
+                        {{ .subtitle2nd | markdownify }}
+                    </h3>
+                </div>
+                <img src="images/line_break.png" alt="">
+            </div>
+        </header>
+
+        <div class="row">
+            {{ range .technology_item }}
+            <div class="col-md-3">
+                <header class="technology">
+                    <div class="image">
+                        <img class="image-item" src="{{ .image | relURL }}" alt="" />
+                    </div>
+                    <h3>{{ .title | markdownify }}</h3>
+                </header>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+<!-- Technologies end -->
+
+<!-- skill start -->
+{{ with $data.homepage.languages }}
+<section class="wrapper111">
+    <div class="inner">
+        <div class="backup">
+            <header class="special mt-5">
+                <h2>{{ .title | markdownify }}</h2>
+                <h3 class="text-center md:text-left text-lg font-medium text-black">{{ .subtitle1st | markdownify
+                    }}<br>{{ .subtitle2nd | markdownify }}</h3>
+                <img src="images/line_break.png" alt="">
+            </header>
+            <div class="row">
+                {{ range .language_item }}
+                <div class="col-md-4">
+                    <div class="skill">
+                        <img src="{{ .image | relURL  }}" alt="">
+                        <div class="skill-name">{{ .title | markdownify }}</div>
+                        <div class="skill-bar">
+                            <div class="skill-per" per="{{ .percentage }}"></div>
+                        </div>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+</section>
+{{ end }}
+
+<!-- skill end -->
+
+<!-- secure start -->
+{{ with $data.homepage.secure }}
+<section id="secure">
+    <div class="inner">
+        <div class="secure text-center">
+            <h2>{{ .title | markdownify }}</h2>
+            <h3 style="color:white">{{ .subtitle1st | markdownify }}<br /> {{ .subtitle2nd | markdownify }}<br /> {{ .subtitle3rd | markdownify }} </h3>
+        </div>
+    </div>
+</section>
+{{ end }}
+
+<style>
+    #secure {
+        background-image: linear-gradient(rgba(206, 27, 40, 0.25),
+                rgba(206, 27, 40, 0.25)),
+            url(images/cta01.jpg);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 100px 20px;
+        margin-top: 80px;
+        color: #fff;
+    }
+</style>
+
+{{ end }}
+
+<!-- Scripts -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/brow.min.js"></script>
+<script src="js/breakpoints.min.js"></script>
+<script src="js/util.js"></script>
+<script src="js/main.js"></script>
+
+<script>
+    /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+    var dropdown = document.getElementsByClassName("dropdown-btn");
+    var i;
+
+    for (i = 0; i < dropdown.length; i++) {
+        dropdown[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var dropdownContent = this.nextElementSibling;
+            if (dropdownContent.style.display === "block") {
+                dropdownContent.style.display = "none";
+            } else {
+                dropdownContent.style.display = "block";
+            }
+        });
+    }
+</script>
+{{ end }}

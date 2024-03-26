@@ -1,0 +1,18 @@
+{{ define "main" }}
+{{ $data := index .Site.Data }}
+
+<div class="container">
+    <div class="background-image"></div>
+    <div class="blog-posts">
+        {{ range first 3 $data.blog.blog }}
+        <div class="blog-post">
+            <h2>{{ .title }}</h2>
+            <p>Published on {{ .date }} by {{ .author }}</p>
+            <div class="content">
+                {{ .content | markdownify }}
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</div>
+{{ end }}

@@ -1,0 +1,161 @@
+technologies:
+  enable: true
+  title: "Technologies"
+  subtitle1st: "Explore a gallery showcasing the specialized technologies I work with."
+  subtitle2nd: "Continuously learning and expanding this list, ensuring access to the best available services."
+  technology_item:
+    # Loop technology
+    - title: "Kubernetes"
+      image: "images/kubernetes.png"
+
+    # Loop technology
+    - title: "Terraform"
+      image: "images/terraform_logo.png"
+
+    # Loop technology
+    - title: "Amazon Web Services"
+      image: "images/aws.png"
+
+    # Loop technology
+    - title: "Linux"
+      image: "images/linux.png"
+
+    # Loop technology
+    - title: "Docker"
+      image: "images/docker_logo.png"
+
+    # Loop technology
+    - title: "iOS"
+      image: "images/apple.png"
+
+    # Loop technology
+    - title: "Github"
+      image: "images/github_logo.png"
+
+    # Loop technology
+    - title: "LinkedIn"
+      image: "images/linkedin_logo.png"
+
+    # Loop technology
+    - title: "Jenkins"
+      image: "images/jenkins.png"
+
+    # Loop technology
+    - title: "Ansible"
+      image: "images/ansible.png"
+
+    # Loop technology
+    - title: "Windows"
+      image: "images/windows.png"
+
+    # Loop technology
+    - title: "Google Cloud Provider"
+      image: "images/gcp.png"
+
+    # Loop technology
+    - title: "Microsoft Azure"
+      image: "images/azure.png"
+
+    # Loop technology
+    - title: "Cloudflare"
+      image: "images/cloudflare.png"
+
+    # Loop technology
+    - title: "Prometheus"
+      image: "images/prometheus.png"
+
+    # Loop technology
+    - title: "Tilt"
+      image: "images/tilt_logo.png"
+
+    # Loop technology
+    - title: "Heroku"
+      image: "images/heroku.png"
+
+    # Loop technology
+    - title: "Trunk"
+      image: "images/trunk_logo.png"
+
+    # Loop technology
+    - title: "Jira"
+      image: "images/jira_logo.png"
+
+    # Loop technology
+    - title: "ClickUp"
+      image: "images/clickup_logo.png"
+
+    # Loop technology
+    - title: "CircleCI"
+      image: "images/circleci_logo.png"
+
+languages:
+  title: "Languages"
+  subtitle1st: "Discover a gallery showcasing some of the languages I specialize in."
+  subtitle2nd: "Continuously expanding my repertoire, I am dedicated to adding more languages to this list, ensuring access to the best available options."
+  language_item:
+    # Loop language
+    - title: "Python"
+      image: "images/python.png"
+      percentage: "99"
+
+    # Loop language
+    - title: "Javascript"
+      image: "images/javascript.png"
+      percentage: "99"
+
+    # Loop language
+    - title: "C++"
+      image: "images/cplusplus.png"
+      percentage: "90"
+
+    # Loop language
+    - title: "R"
+      image: "images/r-logo.png"
+      percentage: "80"
+
+    # Loop langauge
+    - title: "PHP"
+      image: "images/php.png"
+      percentage: "70"
+
+    # Loop language
+    - title: "Java"
+      image: "images/java.png"
+      percentage: "90"
+
+    # Loop language
+    - title: "Bash"
+      image: "images/bash.png"
+      percentage: "99"
+
+    # Loop language
+    - title: "Regex Expression"
+      image: "images/regex.png"
+      percentage: "90"
+
+    # Loop language
+    - title: "STRUCTURED QUERY LANGUAGE"
+      image: "images/SQL.png"
+      percentage: "99"
+
+    # Loop language
+    - title: "GOLANG"
+      image: "images/golang_logo.png"
+      percentage: "80"
+
+    # Loop language
+    - title: "Css"
+      image: "images/css_logo.png"
+      percentage: "99"
+
+    # Loop language
+    - title: "HTML"
+      image: "images/html_logo.png"
+      percentage: "100"
+
+secure:
+  title: "SECURE YOUR ORGANIZATION"
+  subtitle1st: "As a DevOps Engineer,"
+  subtitle2nd: "I specialize in helping organizations enhance their security measures and navigate the complexities of their needs."
+  subtitle3rd: "I provide comprehensive expertise and consulting services to assist you in achieving your compliance objectives effectively."
+  subtitle4th: "Take the first step towards your organization's success and secure your future. Don't hesitate to start now!"
