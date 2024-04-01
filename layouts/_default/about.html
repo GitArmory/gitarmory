@@ -56,39 +56,31 @@
 </section>
 {{ end }}
 
-<!-- Testimonials -->
+<!-- Begin Testimonials Section -->
 {{ with $data.about.testimonials }}
-<section class="wrapper">
+<section class="testimonials-section wrapper">
     <div class="inner">
-        <div class="inner_backup">
-            <header class="special">
-                <h2>{{ .title }}</h2>
-                <p>{{ .subtitle | markdownify }}:</p>
-            </header>
-            <div class="testimonials">
-                {{ range .testi_item }}
-                <section>
-                    <div class="content">
-                        <blockquote>
-                            <p>“{{ .content }}”</p>
-                        </blockquote>
-                        <div class="author">
-                            <!-- <div class="image">
-                                        <img src="images/pic01.jpg" alt="" />
-                                    </div> -->
-                            <p class="credit">- <strong>{{ .name }}</strong> <br /> <span>{{ .title }}
-                                    <br />{{ .company }}</span></p>
-                        </div>
-                    </div>
-                </section>
-                {{ end }}
-
+        <header class="special">
+            <h2>Testimonials</h2>
+        </header>
+        <div class="testimonials-container">
+            {{ range . }}
+            <div class="testimonial">
+                <blockquote>
+                    <p>“{{ .content }}”</p>
+                </blockquote>
+                <div class="author">
+                    <p class="credit">- <strong>{{ .name }}</strong><br>
+                    <span>{{ .title }}<br>{{ .company }}</span></p>
+                </div>
             </div>
+            {{ end }}
         </div>
     </div>
 </section>
 {{ end }}
-<!-- testimonials end -->
+<!-- End Testimonials Section -->
+
 
 
 <!-- Scripts -->
