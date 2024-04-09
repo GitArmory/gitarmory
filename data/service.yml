@@ -1,170 +1,82 @@
 service:
-  title: What I Offer
+  title: Git Armory Services
   offer_item:
-    - title: Development
-      icon: icon fa-vcard-o
+    - title: Rapid Project Initiation
+      icon: icon fa-rocket
       description: |
-        I specialize in developing custom solutions to enhance your company's technology stack. 
-        Utilizing the latest and most effective tools, I can help you develop, customize, secure, 
-        and automate your products. My goal is to streamline your business processes and provide 
-        you with an optimized platform that meets your unique needs. Let me help you take your 
-        company's technology to the next level.
-    - title: Secure Your Business
-      icon: icon fa-shield
-      description: |
-        Protecting your reputation is our top priority. Our team of cybersecurity experts can 
-        identify potential security risks, prevent DDoS attacks, and implement TLS/SSL certificates 
-        to ensure the highest level of protection for your services. Trust us to safeguard your 
-        business and maintain your clients' trust.
-    - title: Streamline Your Operations
+        Git Armory enables you to kick-start your projects with unparalleled speed. Our platform is designed for quick setup, allowing developers to move from concept to coding in no time. Leverage pre-configured templates, integrations with essential development tools, and automated project environments to streamline your setup process.
+    - title: Seamless Developer Tools Integration
       icon: icon fa-cogs
       description: |
-        Let us help you optimize your software development life cycle with our expertise in agile 
-        practices. We'll work with you to map clear, concrete goals and create a step-by-step 
-        solution to achieve them. With our guidance, your projects will be clear, concise, and 
-        constantly up-to-date and stable. Let's streamline your operations and take your business 
-        to the next level.
-      # Item Loop
-    - title: Optimize Your Configuration Management
-      icon: icon fa-wrench
-      description: Get the most out of your development and management tools with our configuration management services. We utilize the latest and greatest tools available and provide training and support to ensure your team is equipped to use them to their full potential. With our expertise, you'll be able to optimize your development and management processes and achieve better results in less time. Let us help you take your configuration management to the next level.
-
-    - title: Protect Your Business from Cyber Risks and Privacy Threats
-      icon: icon fa-camera
-      description: Don't let a cyber incident or privacy breach lead to financial and reputational penalties. Stay prepared with our comprehensive risk and compliance services. We'll help you identify and address potential risks and requirements, ensuring that your business is protected and compliant at all times. With our expertise, you can focus on growing your business with the peace of mind that comes from knowing your data and systems are secure. Let us help you protect your business from cyber risks and privacy threats.
-
-    - title: Streamline Your Workflows and Foster Collaboration
+        We understand the importance of using the right tools. Git Armory offers seamless integration with a wide range of development tools and platforms, ensuring you can work with the technologies you're already comfortable with. From version control systems like Git to continuous integration and deployment services, we've got you covered.
+    - title: Secure Collaboration Spaces
       icon: icon fa-users
-      description:
-        Collaboration and compliance are essential to building trust with your clients. Our team will help you organize your workflows and collaborate with other teams to ensure that everyone is working towards the same goals. We'll teach you the best practices for achieving compliance and help you implement processes that streamline your workflows and increase productivity. With our support, you can build a culture of collaboration and trust that drives success for your business. Let us help you foster collaboration and streamline your workflows today.
-        # Item Loop
-    - title: Cloud Infrastructure Management
-      icon: icon fa-cubes
-      description: Efficiently manage, enhance, and oversee your cloud infrastructure on platforms like AWS, Azure, and GCP. This includes regular backups, updates, and scaling to ensure your systems are running smoothly and can handle increased traffic and demand.
-
-    - title: Restoration and Backup Services
-      icon: icon fa-lock
-      description: Protect your organization's data with the latest security tools and technologies. We specialize in secure backup, monitoring, and support services for your technology infrastructure. With our expertise, you can rest easy knowing that your valuable data is safe and secure.
-
+      description: |
+        Collaboration is key to successful project delivery. Git Armory provides secure, intuitive spaces for your team to collaborate in real-time. With features like branch protection, merge checks, and role-based access control, we ensure that your development process is both efficient and secure.
     - title: Continuous Integration and Delivery
       icon: icon fa-refresh
-      description: DevOps requires frequent and incremental changes to code versions, allowing for continuous testing and deployment. With our expertise in DevOps, we can help your team implement a continuous integration and delivery pipeline, ensuring that your applications are always up-to-date and running smoothly.
+      description: |
+        Embrace the power of continuous integration and delivery with Git Armory. Our platform automates your development pipelines, enabling you to build, test, and deploy with confidence. Streamline your release process and ensure that your team can deliver high-quality software quickly and reliably.
+    - title: Developer-Centric Support and Documentation
+      icon: icon fa-life-ring
+      description: |
+        At Git Armory, we prioritize your success. Our comprehensive support system includes extensive documentation, a responsive help desk, and a community forum for peer assistance. Whether you're facing a technical challenge or looking for best practices, we're here to help you find solutions.
 
 service2:
-  title: Learn by Building
-  description: Ryan brings together technology experience, from fast growing startups to complex enterprise environments, with theoretical understanding and ongoing research. I understand you have unique context and tradeoffs. Get off the buzzword-of-the-day treadmill and work to be a better organization. I will help make this possible.
-  service_items:
-    # service item loop
-    - title: End-to-End Solutions
-      icon: tf-gears
-      details: "At every stage of the software development lifecycle, from ideation to deployment and beyond, it's important to consider the big picture. That's why our team takes a holistic approach to software development, taking into account business drivers, product strategy, enterprise architecture, quality assurance, data science, security, and compliance. By engaging across your value streams, we can create a unified purpose and understanding to deliver end-to-end solutions that meet your needs."
-
-    # service item loop
-    - title: Modern Governance
-      icon: tf-ion-pull-request
-      details: "Most organizations focus on improving software delivery by optimizing for increased developer productivity and operational efficiency. However, this approach often leaves security and compliance behind due to the accelerated pace and ephemeral nature of cloud resources. To overcome this false choice between exposing the organization to risk or slowing down development, modern governance provides continuously audited and verified policies. By implementing modern governance, organizations can go faster and safer without compromising security and compliance."
-
-    # service item loop
-    - title: Platforming
-      icon: tf-layers
-      details: "Infrastructure, Platform, Software... as a Service? Cloud is defined by self-service access to resources, but many organizations struggle to develop platforms fit for their purpose. Internal platforms are not a product to deliver but shared resources that need to evolve with the mission. If you build it, they might run. Bring all the interests together and build with the collective for the collective."
-
-  title2: HOW I WORK WITH CLIENTS
-  subtitle2: My Services
-  details: I don't believe in one size fits all, but I believe there are a few good starting points.
-  service2_item:
-    # service item loop
-    - title: Strategy
-      icon: tf-ion-ios-copy-outline
-      list:
-        - item: Strategy Development
-        - item: Capability Assessment
-        - item: Strategy Deployment
-        - item: Technical Leadership
-        - item: Mentoring
-
-    # service item loop
-    - title: Workshops
-      icon: tf-ion-ios-copy-outline
-      list:
-        - item: Modern Governance
-        - item: Platforming Workshop
-        - item: Leadership Offsite Workshop
-
-    # service item loop
-    - title: Advisory
-      icon: tf-ion-ios-copy-outline
-      list:
-        - item: Assessment
-        - item: Mentoring
-        - item: Consulting and Advisory
-        - item: Custom Research
-
-  title3: HOW I WORK
-  subtitle3: My Work Process
-  details3: Every engagement with my customers is unique, and I use a simple process to guide exploring the possible.
-  service3_item:
-    # service item
-    - title: Introductions
-      count: 1
-      icon: tf-ion-ios-briefcase-outline
-      details: "Let's get to know each other and understand what kinds of problems you'd like to solve."
-    # service item
-    - title: Assessment
-      count: 2
-      icon: tf-ion-ios-alarm-outline
-      details: "If there is a good fit between your journey and my experiences, I can engage in an extensive assessment. My assessments create alignment and understanding around a set of objectives spanning tactics, strategies, and systemic goals."
-    # service item
-    - title: Strategy Deployment
-      count: 3
-      icon: tf-ion-ios-email-outline
-      details: "I can work with your teams to deploy tactics and strategies to unleash the potential of your system. I find many organizations have stores of locked-up ROI just waiting to be potentialized by proper inter-team dialogue and value stream-based alignment."
-    # service item
-    - title: Product and Platforms
-      count: 4
-      icon: tf-ion-ios-locked-outline
-      details: "This industry is moving towards from Project to Product and from Service Catalogue to Platforming. I can work with your team to understand how to engage in these new ways of working together."
-
-service3:
-  title: 1-on-1 DevOps Consulting
-  subtitle: Training and Career Guidance
+  title: Git Armory Learning Hub
   description: |
-    Our 1-on-1 DevOps Consulting service is designed to provide personalized training and guidance for aspiring DevOps engineers. Whether you're new to the field or looking to enhance your skills, our expert consultants will help you navigate the DevOps landscape and prepare you for a successful career.
+    Dive deeper into Git Armory's capabilities through our Learning Hub. From beginner to advanced levels, enhance your skills with our curated tutorials, workshops, and hands-on labs. Whether you're looking to improve your coding efficiency, master new development tools, or embrace DevOps practices, our resources are tailored to help you grow.
+  service_items:
+    - title: Interactive Tutorials and Guides
+      icon: tf-gears
+      details: "Explore our extensive library of tutorials and guides designed to help you make the most of Git Armory. From setting up your first project to advanced integration techniques, our step-by-step resources are here to assist you."
+    - title: Workshops and Webinars
+      icon: tf-ion-pull-request
+      details: "Join our expert-led workshops and webinars to gain insights into the latest development trends, tools, and practices. Network with fellow developers and learn from industry leaders."
+    - title: Hands-on Labs
+      icon: tf-layers
+      details: "Get hands-on experience with Git Armory through our interactive labs. Experiment with real-world scenarios in a controlled environment to enhance your skills and confidence."
 
-  service_item:
-    - count: 1
-      icon: tf-ion-ios-briefcase-outline
-      title: Job Market Insights
-      details: Gain valuable insights into the current DevOps job market, including in-demand skills, trends, and best practices for job applications and interviews.
+title2: How Git Armory Works with You
+subtitle2: Your Success is Our Priority
+details: Git Armory is not just a tool; it's a partner in your development journey. We believe in supporting your growth, solving challenges together, and fostering a community of innovators.
+service2_item:
+  - title: Personalized Setup Assistance
+    icon: tf-ion-ios-copy-outline
+    list:
+      - item: Tailored project setup guidance
+      - item: Integration with existing workflows
+      - item: Best practices for efficient development
+  - title: Developer Community
+    icon: tf-ion-ios-copy-outline
+    list:
+      - item: Connect with peers
+      - item: Share knowledge and resources
+      - item: Access to Git Armory experts
+  - title: Continuous Innovation
+    icon: tf-ion-ios-copy-outline
+    list:
+      - item: Regular updates and new features
+      - item: Feedback-driven enhancements
+      - item: Stay ahead with the latest development trends
 
-    - count: 2
-      icon: tf-ion-ios-alarm-outline
-      title: Skill Assessment and Development
-      details: Receive a comprehensive assessment of your existing skills and a tailored development plan to bridge any knowledge gaps and enhance your proficiency in key DevOps areas.
-
-    - count: 3
-      icon: tf-ion-ios-email-outline
-      title: Tools and Technologies
-      details: Explore the essential DevOps tools and technologies, learn how to set up and configure popular DevOps platforms, and gain hands-on experience in building CI/CD pipelines.
-
-    - count: 4
-      icon: tf-ion-ios-locked-outline
-      title: Best Practices and Methodologies
-      details: Understand industry-standard DevOps practices, such as infrastructure as code, automated testing, monitoring, and deployment strategies, to ensure efficient and reliable software delivery.
-
-    - count: 5
-      icon: tf-ion-ios-rocket-outline
-      title: Career Guidance and Job Preparation
-      details: Receive personalized career guidance, resume review, interview preparation, and valuable tips for positioning yourself as a strong candidate for DevOps engineering roles.
-
-    - count: 6
-      icon: tf-ion-ios-chatboxes-outline
-      title: Ongoing Support and Mentorship
-      details: Benefit from continuous support and mentorship as you progress in your DevOps journey, with regular check-ins, Q&A sessions, and guidance from experienced professionals.
-
-    # Add more service items as needed
-# service4:
-#   title: Download Resume
-#   subtitle: Please download my professional resume
-#   document: documents/ryan_lebon_resume.pdf
-  
+title3: Empowering Your Development Journey
+subtitle3: With Git Armory, You're Never Alone
+details3: Our mission is to empower developers with the tools, resources, and support needed to excel in today's fast-paced software development landscape. Join us, and let's build the future together.
+service3_item:
+  - title: Comprehensive Onboarding
+    count: 1
+    icon: tf-ion-ios-briefcase-outline
+    details: "Start your Git Armory journey with a comprehensive onboarding process that gets you up and running in no time."
+  - title: Ongoing Training and Education
+    count: 2
+    icon: tf-ion-ios-alarm-outline
+    details: "Enhance your skills and stay up-to-date with our ongoing training programs and educational content."
+  - title: Collaborative Problem-Solving
+    count: 3
+    icon: tf-ion-ios-email-outline
+    details: "Leverage the collective knowledge of the Git Armory community to solve challenges and innovate together."
+  - title: Tailored Support
+    count: 4
+    icon: tf-ion-ios-locked-outline
+    details: "Receive tailored support from our expert team, ensuring your development process is smooth and efficient."
