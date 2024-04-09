@@ -1,6 +1,6 @@
-baseURL: 'https://ryanlebon.com'
+baseURL: 'https://gitarmory.com'
 languageCode: 'en-us'
-title: 'Ryan Lebon'
+title: 'Git Armory'
 
 params:
     logo: images/logo.png
