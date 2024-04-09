@@ -1,7 +1,7 @@
 ---
-title: 'Home' # in any language you want
-bannerHeading: "Hello World!"
-bannerDescription: "I'm Ryan Le Bon a Senior DevOps Engineer actively looking for an opportunity as a Sr. DevOps Engineer, Lead DevOps Engineer, Sr. Platform Engineer, AWS Solutions Architect, Product Manager"
-bannerImage: images/iontra-logo.png
-# url: "/archive"
+title: 'Home'
+bannerHeading: "Welcome to Git Armory!"
+bannerDescription: "Git Armory is your premier destination for streamlining development workflows. Designed for developers by developers, our platform facilitates rapid project initiation, seamless collaboration, and integrated DevOps tools. Whether you're a solo developer or part of a large team, Git Armory is here to armor you with the tools and practices needed to deliver high-quality software faster."
+bannerImage: images/git-armory-logo.png
+
 ---
