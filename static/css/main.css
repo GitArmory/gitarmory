@@ -4387,6 +4387,8 @@ a.navbar-brand {
   line-height: inherit;
   padding: 0 1.25rem;
   text-decoration: none;
+  height: 50px;
+  width:50px;
 }
 
 #header>nav>a {
