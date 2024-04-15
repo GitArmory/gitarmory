@@ -1,49 +1,52 @@
-<!-- Start header -->
-<header class="top-header shadow  bg-white rounded">
-    <nav class="navbar header-nav navbar-expand-lg">
-        <div class="container-fluid">
+<!-- Start Side Navigation -->
+<aside class="side-nav shadow bg-white rounded">
+    <nav class="navbar">
+        <div class="nav-container">
             <a class="navbar-brand" href="{{ .Site.Params.baseURL }}">
                 <!-- add your logo -->
-                <img src="{{ .Site.Params.logo | relURL  }}" alt="image">
+                <img src="{{ .Site.Params.logo | relURL  }}" alt="Logo Image">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-wd"
-                aria-controls="navbar-wd" aria-expanded="false" aria-label="Toggle navigation">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
-                <ul class="navbar-nav">
-                    <!-- menu items -->
-                    {{ range .Site.Menus.main }}
-                    <li><a class="nav-link active" href="{{ .URL }}">{{ .Name }}</a></li>
-                    {{ end }}
-                </ul>
+            <div class="nav-items">
+                <!-- menu items -->
+                {{ range .Site.Menus.main }}
+                <a class="nav-link active" href="{{ .URL }}">{{ .Name }}</a>
+                {{ end }}
             </div>
         </div>
     </nav>
-</header>
-<!-- End header -->
+</aside>
+<!-- End Side Navigation -->
 
 <style>
-    .dropdown-container {
-        display: none;
-        /* background-color: #262626;
-            padding-left: 8px; */
+    .side-nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 200px; /* adjust width as needed */
+        height: 100%;
+        overflow-x: hidden;
+        overflow-y: auto; /* scrollable contents */
     }
 
-    .dropdown-btn {
+    .nav-container {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .navbar-brand {
+        padding: 10px 20px;
+    }
+
+    .nav-items a {
+        padding: 10px 20px;
+        text-decoration: none;
+        font-size: 16px;
+        color: #333;
         display: block;
-        /* padding: 6px 8px 6px 16px;
-            text-decoration: none;
-            font-size: 20px;
-            color: #818181;
-            display: block;
-            border: none;
-            background: none;
-            width: 100%;
-            text-align: left;
-            cursor: pointer;
-            outline: none; */
+    }
+
+    .nav-items a:hover {
+        background-color: #f8f8f8;
     }
 </style>
