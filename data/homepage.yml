@@ -49,7 +49,7 @@ technologies:
       image: "images/tkinter.png"
       percentage: "100" # Assuming Tkinter is fully utilized
     - title: "Amazon RDS"
-      image: "images/sql.png"
+      image: "images/amazon_rds.png"
       percentage: "100" # Placeholder since the database is not decided yet
 
 secure:
