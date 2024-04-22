@@ -4,7 +4,6 @@
         {{- partial "head.html" . -}}
     </head>
     <body>
-        {{- partial "header.html" . -}}
         {{ if .IsHome }}
         <style>
             body:before {
@@ -25,6 +24,7 @@
         </style>
         {{ else }}
         {{ end }}
+        {{- partial "header.html" . -}}
         {{- block "main" . }}{{- end }}
         {{- partial "footer.html" . -}}
     </body>
