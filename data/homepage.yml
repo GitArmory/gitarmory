@@ -37,11 +37,11 @@ technologies:
     - title: "Jira"
       image: "images/jira_logo.png"
 
-technologies:
-  title: "Technologies in the GitArmory Repository Stack"
+languages:
+  title: "Technologies in the Git Armory Repository Stack"
   subtitle1st: "Explore the core technologies powering the GitArmory Repository."
   subtitle2nd: "Our stack is designed to be robust and flexible, accommodating a variety of development needs."
-  technology_item:
+  language_item:
     - title: "Python"
       image: "images/python.png"
       percentage: "100" # Assuming Python is fully utilized
