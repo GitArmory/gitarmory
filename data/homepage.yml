@@ -37,38 +37,20 @@ technologies:
     - title: "Jira"
       image: "images/jira_logo.png"
 
-languages:
-  title: "Programming Languages at Git Armory"
-  subtitle1st: "Explore the programming languages that are essential to Git Armory's ecosystem."
-  subtitle2nd: "We support a wide range of languages, constantly updating our platform to accommodate the evolving landscape of software development."
-  language_item:
+technologies:
+  title: "Technologies in the GitArmory Repository Stack"
+  subtitle1st: "Explore the core technologies powering the GitArmory Repository."
+  subtitle2nd: "Our stack is designed to be robust and flexible, accommodating a variety of development needs."
+  technology_item:
     - title: "Python"
       image: "images/python.png"
-      percentage: "99"
-    - title: "JavaScript"
-      image: "images/javascript.png"
-      percentage: "99"
-    - title: "C++"
-      image: "images/cplusplus.png"
-      percentage: "90"
-    - title: "Java"
-      image: "images/java.png"
-      percentage: "90"
-    - title: "Golang"
-      image: "images/golang_logo.png"
-      percentage: "80"
-    - title: "Bash"
-      image: "images/bash.png"
-      percentage: "99"
-    - title: "SQL"
-      image: "images/SQL.png"
-      percentage: "99"
-    - title: "CSS"
-      image: "images/css_logo.png"
-      percentage: "99"
-    - title: "HTML"
-      image: "images/html_logo.png"
-      percentage: "100"
+      percentage: "100" # Assuming Python is fully utilized
+    - title: "Tkinter"
+      image: "images/tkinter.png"
+      percentage: "100" # Assuming Tkinter is fully utilized
+    - title: "Amazon RDS"
+      image: "images/sql.png"
+      percentage: "100" # Placeholder since the database is not decided yet
 
 secure:
   title: "Secure with Git Armory"
