@@ -45,8 +45,11 @@ languages:
     - title: "Python"
       image: "images/python.png"
       percentage: "100" # Assuming Python is fully utilized
-    - title: "Amazon RDS"
-      image: "images/amazon_rds.png"
+    - title: "AWS"
+      image: "images/aws.png"
+      percentage: "100" # Placeholder since the database is not decided yet
+    - title: "ChatGPT"
+      image: "images/chatgpt.png"
       percentage: "100" # Placeholder since the database is not decided yet
 
 secure:
