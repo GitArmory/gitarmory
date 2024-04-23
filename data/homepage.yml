@@ -6,8 +6,8 @@ technologies:
   technology_item:
     - title: "Amazon Web Services"
       image: "images/aws.png"
-    - title: "Linux"
-      image: "images/linux.png"
+    - title: "Mac OS"
+      image: "images/apple.png"
     - title: "Jira"
       image: "images/jira_logo.png"
     - title: "GitHub"
