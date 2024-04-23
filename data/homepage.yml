@@ -51,6 +51,9 @@ languages:
     - title: "ChatGPT"
       image: "images/chatgpt.png"
       percentage: "100" # Placeholder since the database is not decided yet
+    - title: "Apple"
+      image: "images/apple.png"
+      percentage: "100" # Placeholder since the database is not decided yet
 
 secure:
   title: "Secure with Git Armory"

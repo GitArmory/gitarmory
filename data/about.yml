@@ -20,18 +20,18 @@ work:
   item1: At Git Armory, we are equipped to propel your projects forward by identifying and implementing AI-driven solutions to automate security assessments, vulnerability scanning, and patching. In this role, we actively work to minimize security vulnerabilities, support development teams in building secure software, and enhance productivity across all your software development endeavors.
   item2: Our unwavering commitment to integrating successful security practices and innovative technologies will improve your team's development lifecycle and generate effective long-term solutions for your organization. With our extensive skills and expertise, we can help your team achieve new heights of security and efficiency.
 
-testimonials:
-  - content: "Git Armory's sophisticated security features have transformed the way we manage and secure our code repositories. Its seamless integration of AI-driven tools has elevated our security practices, making our development process both efficient and secure."
-    name: A DevOps Enthusiast
-    title: Senior DevOps Engineer
-    company: Tech Innovations Inc.
+# testimonials:
+#   - content: "Git Armory's sophisticated security features have transformed the way we manage and secure our code repositories. Its seamless integration of AI-driven tools has elevated our security practices, making our development process both efficient and secure."
+#     name: A DevOps Enthusiast
+#     title: Senior DevOps Engineer
+#     company: Tech Innovations Inc.
 
-  - content: "The adoption of Git Armory in our workflow has been a pivotal move towards enhancing our DevOps practices. Its advanced security scanning and AI integration not only streamlined our operations but also infused our projects with a new layer of protection."
-    name: A Technology Leader
-    title: Chief Technology Officer
-    company: NextGen Solutions
+#   - content: "The adoption of Git Armory in our workflow has been a pivotal move towards enhancing our DevOps practices. Its advanced security scanning and AI integration not only streamlined our operations but also infused our projects with a new layer of protection."
+#     name: A Technology Leader
+#     title: Chief Technology Officer
+#     company: NextGen Solutions
 
-  - content: "Git Armory stands out as a crucial tool in our development arsenal, offering cutting-edge security solutions and fostering a culture of proactive security. Its impact on our project's security and efficiency has been profound and transformative."
-    name: A Security Advocate
-    title: Head of Cybersecurity
-    company: Digital Frontiers
+#   - content: "Git Armory stands out as a crucial tool in our development arsenal, offering cutting-edge security solutions and fostering a culture of proactive security. Its impact on our project's security and efficiency has been profound and transformative."
+#     name: A Security Advocate
+#     title: Head of Cybersecurity
+#     company: Digital Frontiers
