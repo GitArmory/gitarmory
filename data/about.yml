@@ -1,8 +1,8 @@
 about:
-  title: About GitArmory
+  title: About Git Armory
   image: images/profile_picture.jpg
   paragraph:
-    Welcome to GitArmory's official website! GitArmory is a pioneering security company dedicated to revolutionizing the way git repositories are managed and secured.
+    Welcome to Git Armory's official website! Git Armory is a pioneering security company dedicated to revolutionizing the way git repositories are managed and secured.
     Originating from a remote hackathon team with a vision to change the world for the better, we engage in creating a variety of projects to address diverse needs.
     Specializing in operational tasks, we collaborate with development teams to create efficient software products utilizing CI/CD platforms.
     Our expertise spans across DevOps Engineering, Software Engineering, Full Stack Design/Development, Automation Engineering, and Data Analytics.
@@ -13,11 +13,11 @@ about:
     If you're interested in our work or have a position available, please feel free to contact us. Thank you for visiting our website!
 
 work:
-  title: Why Choose GitArmory?
+  title: Why Choose Git Armory?
   image: images/collaboration.png
-  paragraph: If you're looking for a security partner that can elevate your team's capabilities in managing and securing git repositories, your search ends with GitArmory! We bring the skills and experience necessary to guide your team, offering a clear roadmap for integrating cutting-edge security scanning and AI technology into your git repositories.
-  heading: How GitArmory Can Streamline and Advance Your Projects
-  item1: At GitArmory, we are equipped to propel your projects forward by identifying and implementing AI-driven solutions to automate security assessments, vulnerability scanning, and patching. In this role, we actively work to minimize security vulnerabilities, support development teams in building secure software, and enhance productivity across all your software development endeavors.
+  paragraph: If you're looking for a security partner that can elevate your team's capabilities in managing and securing git repositories, your search ends with Git Armory! We bring the skills and experience necessary to guide your team, offering a clear roadmap for integrating cutting-edge security scanning and AI technology into your git repositories.
+  heading: How Git Armory Can Streamline and Advance Your Projects
+  item1: At Git Armory, we are equipped to propel your projects forward by identifying and implementing AI-driven solutions to automate security assessments, vulnerability scanning, and patching. In this role, we actively work to minimize security vulnerabilities, support development teams in building secure software, and enhance productivity across all your software development endeavors.
   item2: Our unwavering commitment to integrating successful security practices and innovative technologies will improve your team's development lifecycle and generate effective long-term solutions for your organization. With our extensive skills and expertise, we can help your team achieve new heights of security and efficiency.
 
 testimonials:
