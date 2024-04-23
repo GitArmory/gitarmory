@@ -43,9 +43,9 @@ languages:
     - title: "SQL"
       image: "images/SQL.png"
       percentage: "100" # Placeholder since the database is not decided yet
-    # - title: "GitHub"
-    #   image: "images/github_logo.png"
-    #   percentage: "100" # Placeholder since the database is not decided yet
+    - title: "Bash"
+      image: "images/shell.jpg"
+      percentage: "100" # Placeholder since the database is not decided yet
 secure:
   title: "Secure with Git Armory"
   subtitle1st: "Keep your repositories reinforced with Git Armory."
