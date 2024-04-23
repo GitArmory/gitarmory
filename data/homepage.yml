@@ -4,16 +4,12 @@ technologies:
   subtitle1st: "Dive into the technologies that power Git Armory."
   subtitle2nd: "We're continuously integrating the most effective tools to ensure developers have access to the best in class."
   technology_item:
-    # - title: "Kubernetes"
-    #   image: "images/kubernetes.png"
-    # - title: "Terraform"
-    #   image: "images/terraform_logo.png"
     - title: "Amazon Web Services"
       image: "images/aws.png"
     - title: "Linux"
       image: "images/linux.png"
-    # - title: "Docker"
-    #   image: "images/docker_logo.png"
+    - title: "Jira"
+      image: "images/jira_logo.png"
     - title: "GitHub"
       image: "images/github_logo.png"
     # - title: "Jenkins"
@@ -34,8 +30,7 @@ technologies:
     #   image: "images/heroku.png"
     # - title: "ClickUp"
     #   image: "images/clickup_logo.png"
-    # - title: "Jira"
-    #   image: "images/jira_logo.png"
+
 
 languages:
   title: "Language in the Git Armory Repository Stack"
