@@ -48,13 +48,9 @@ languages:
     - title: "AWS"
       image: "images/aws.png"
       percentage: "100" # Placeholder since the database is not decided yet
-    - title: "ChatGPT"
-      image: "images/chatgpt.png"
+    - title: "GitHub"
+      image: "images/github_logo.png"
       percentage: "100" # Placeholder since the database is not decided yet
-    - title: "Apple"
-      image: "images/apple.png"
-      percentage: "100" # Placeholder since the database is not decided yet
-
 secure:
   title: "Secure with Git Armory"
   subtitle1st: "Keep your repositories reinforced with Git Armory."
