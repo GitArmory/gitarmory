@@ -44,7 +44,7 @@ languages:
       image: "images/SQL.png"
       percentage: "100" # Placeholder since the database is not decided yet
     - title: "Bash"
-      image: "images/shell.jpg"
+      image: "images/bash.png"
       percentage: "100" # Placeholder since the database is not decided yet
 secure:
   title: "Secure with Git Armory"
