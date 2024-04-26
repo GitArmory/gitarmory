@@ -21,6 +21,10 @@
         <!-- Calendly inline widget begin -->
         <header class="special">
             <h2>{{ .title | markdownify }}</h2>
+            <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
+            <stripe-pricing-table pricing-table-id="prctbl_1P9sNxGsN7jBudkSPWPUlU8C"
+            publishable-key="pk_live_51MaUYCGsN7jBudkSJDs3G9XmrCWO2ClXCOnCRhnhpL9snUl7wzQebFp8dPiKgWkUooRHhiRkNrjpsCfTW3YW4B7900Bvnhz99z">
+            </stripe-pricing-table>
             <img src="../images/line_break.png" alt="">
         </header>
         <div class="highlights">
